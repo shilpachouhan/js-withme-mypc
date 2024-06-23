@@ -1,8 +1,16 @@
-//console.log(null > 0);
-//console.log(null == 0);
-//console.log(null >= 0);
+let userOne = {
+    email: "user@google.com",
+    upi "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email ="hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
-console.log(undefined == 0);
-console.log(undefined > 0);
-console.log(undefined < 0);
+
+
+ 

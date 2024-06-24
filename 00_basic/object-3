@@ -1,0 +1,10 @@
+const course = {
+    coursename: "java script",
+    price: "50000",
+    courseInstructor: "SHILPA"
+}
+const {courseInstructor: Instructor} = course
+ 
+console.log(Instructor);
+
+

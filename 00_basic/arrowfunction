@@ -1,0 +1,66 @@
+const user = {
+    username: "SHILPA kartik",
+    price: 999,
+
+    welcomeMessage: function() {
+        console.log(`${this.username}, welcome to website`);
+        console.log(this);
+    }
+}
+
+//user.welcomeMessage()
+//user.username = "hamara baby"
+//user.welcomeMessage()
+//console.log(this);
+
+//function tum(){
+  //  let username = "shilpa"
+    //console.log(this);
+//}
+//tum()
+
+
+//+++++++++++++++++Arrow function ke throw ham Arrow ko kese declare kar sakte hai+++++++++++++++++++++++++++++++++++++++
+
+//const chai = function () {
+    //let username = "shilpa laddu kartik "
+    //console.log(this.username);
+
+//}
+
+const chai =  () => {
+    let username = "shilpa laddu kartik "
+    console.log(this);
+
+}
+ //chai()
+ //+++++++++++++++++++++++++++++++++     Basic Arrow function      ++++++++++++++++++++++++++++++++
+
+ //const addTwo = (num1, num2) => {
+    //return num1 + num2
+ //}
+
+ //console.log(addTwo(3, 4))
+
+    //+++++++++++++++++++     use to implicit return  isme {} yeh use nahi karte hai        ++++++++++++++++++++
+
+
+
+ //const addTwo = (num1, num2) => num1 + num2
+ //const addTwo = (num1, num2) => (num1 + num2)
+
+
+ //+++++++++++++ object return karna hai toh aise karna padega ++++++++++++++
+ //object ko return karne ke liye parathisis ko rap karna padega currly bracket ke sath
+
+ const addTwo = (num1, num2) => ({username: "shilpa kartik"})
+console.log(addTwo(7, 8))
+ 
+
+
+
+
+
+
+
+
